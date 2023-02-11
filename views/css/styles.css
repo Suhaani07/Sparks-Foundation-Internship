@@ -1,0 +1,342 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  padding-bottom: 0%;
+}
+li
+{
+  display: inline;
+  padding-left:3rem;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+@media (min-width: 1028px) {
+#title .container-fluid{
+  padding-left: 7%;
+  height: 40rem;
+}
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #184D47;
+  color: #0f0101;
+
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title Section */
+
+#title {
+  background-color: #184D47;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  padding-left: 30%;
+  padding-bottom: 20px;
+  height:20%;
+  
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  
+}
+#bg-img{
+  opacity: 0.75;
+  width: 100%;
+}
+
+
+.feature-title {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #153934;
+  height: 25rem;
+  color: wheat;
+}
+
+.testimonial-text {
+  padding-top: 2rem;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+/* Our cause Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+   
+    align-self: center;
+    transform: rotate(0);
+  }
+}
+@font-face {
+  font-family: "ElMessiri-SemiBold";
+  src: url("../fonts/el_messiri/ElMessiri-SemiBold.ttf"); }
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/montserrat/Montserrat-SemiBold.ttf"); }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+
+/*NGO part Payment */
+
+.form-holder {
+  padding-left: 24px;
+  position: relative; }
+  .form-holder:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #CAF2D7;
+    position: absolute;
+    left: 1px;
+    top: 50%;
+    transform: translateY(-50%); }
+  .form-holder.active:before {
+    border: 2px solid transparent;
+    background: #CAF2D7; }
+
+.form-control {
+
+  border-radius: 23.5px;
+  height: 47px;
+  padding: 0 24px;
+  color: #808080;
+  font-size: 13px;
+  border: none;
+  background: #f7f7f7;
+  margin-bottom: 25px; 
+
+}
+
+
+
+  .form-control::-webkit-input-placeholder {
+    font-size: 13px;
+    color: #808080;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular"; }
+
+
+  .form-control::-moz-placeholder {
+    font-size: 13px;
+    color: #808080;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular"; }
+
+
+  .form-control:-ms-input-placeholder {
+    font-size: 13px;
+    color: #808080;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular"; }
+
+
+  .form-control:-moz-placeholder {
+    font-size: 13px;
+    color: #808080;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular"; }
+
+@-webkit-keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px); }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px); }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px); }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px); }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+.donate-button {
+  letter-spacing: 2px;
+  border: none;
+  width: 133px;
+  height: 47px;
+  margin-right: 19px;
+  border-radius: 23.5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: #ff9a9c;
+  font-size: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Montserrat-SemiBold";
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
+
+  .donate-button:hover {
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1; }
+
+
+
+@media (max-width: 767px) {
+  .inner {
+    display: block; }
+
+  .image-holder {
+    width: 100%;
+    padding-right: 0; }
+
+  form {
+    width: 100%;
+    padding: 0px 15px 70px; }
+
+  .wrapper {
+    background: none; } }
+
+
