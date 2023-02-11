@@ -1,0 +1,17 @@
+{
+  "name": "node-stripe-payment-gateway",
+  "version": "1.0.0",
+  "description": "Implementing stripe payment gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Suhaani Aggarwal",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3",
+    "express": "^4.17.1",
+    "nodemailer": "^6.9.1",
+    "stripe": "^8.156.0"
+  }
+}
